@@ -124,7 +124,7 @@
     <!-- ==========用户模块============== -->
     <action name="Login" class="userLogin">
         <result name="LoginSuccess">/index.jsp</result>
-        <result name="LoginFalse">/form/Login.jsp</result>
+        <result name="LoginFalse">/Login.jsp</result>
     </action>
     <action name="userFindAll" class="userInfo">
         <result name="findAll">/form/FindAllUserInfo.jsp</result>
